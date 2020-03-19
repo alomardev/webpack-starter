@@ -1,0 +1,52 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A starter project using webpack build tool for TypeScript and SASS/SCSS.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alomardev/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "ts",
+    "scss",
+    "sass",
+    "typescript",
+    "starter"
+  ],
+  "author": "Abdulrahman Alomar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alomardev/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/alomardev/webpack-starter#readme",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "webpack-dev-server --mode development",
+    "build:dev": "webpack --mode development --clean",
+    "build:prod": "webpack --mode production --clean"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "IE 9-11"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browserslist": "^4.10.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
