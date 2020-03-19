@@ -2,6 +2,8 @@
 
 A starter project using webpack build tool for TypeScript and SASS/SCSS.
 
+
+
 ## Project Structure
 
 ```
@@ -16,7 +18,7 @@ src
 
 | Item       | Description                                           |
 | ---------- | ----------------------------------------------------- |
-| assets     | Raw files to be copied as is to the output directory  |
+| assets     | Every file inside is served as is                     |
 | styles     | Style files to be resolved (`.sass`, `.scss`, `.css`) |
 | scripts    | Scripts to be resolved (`.ts`, `.js`)                 |
 | index.html | The web page to be served                             |
