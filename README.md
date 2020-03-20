@@ -18,7 +18,7 @@ src
 
 | Item       | Description                                           |
 | ---------- | ----------------------------------------------------- |
-| assets     | Every file inside is served as is                     |
+| assets     | Any file inside is served as is                       |
 | styles     | Style files to be resolved (`.sass`, `.scss`, `.css`) |
 | scripts    | Scripts to be resolved (`.ts`, `.js`)                 |
 | index.html | The web page to be served                             |
